@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid darkred (96, 10, 176);
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.box {
+  background-color: black;
+}
+
+.box1 {
+  background-color: blue;
+  border: 2px solid rgb(96, 10, 176);
+}
+
+.box2 {
+  background-color: orange;
+  border: 2px solid orangered;
+  position: absolute;
+  top: 0px;
+}
+
+.box3 {
+  background-color: crimson;
+}
