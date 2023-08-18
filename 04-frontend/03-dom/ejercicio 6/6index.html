@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Ejercicio con el DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>CLUBHOSE</div>
+    </header>
+    <aside class="menu-lateral">
+      <nav>
+        <a href="#seccion 1">acerca de mi</a>
+        <a href="#seccion 2">reloj digital</a>
+        <a href="#seccion 3">calculadora</a>
+        <a href="#seccion 4">contacto</a>
+      </nav>
+    </aside>
+    <main>
+      <section id="seccion 1">acerca de mi</section>
+
+      <section id="seccion 2">
+        <h2>reloj digital</h2>
+        <div id="reloj"></div>
+        <button id="btn-activar-reloj">Activar</button>
+        <button id="btn-desactivar-reloj">Desativar</button>
+      </section>
+
+      <section id="seccion 3">
+        <h2>calculadora</h2>
+        <div class="calculadora">
+          <div class="pantalla">0</div>
+          <button class="btn-calculadora" id="c">C</button>
+          <button class="btn-calculadora" id="borrar">←</button>
+          <button class="btn-calculadora">/</button>
+          <button class="btn-calculadora">*</button>
+          <button class="btn-calculadora">7</button>
+          <button class="btn-calculadora">8</button>
+          <button class="btn-calculadora">9</button>
+          <button class="btn-calculadora">-</button>
+          <button class="btn-calculadora">4</button>
+          <button class="btn-calculadora">5</button>
+          <button class="btn-calculadora">6</button>
+          <button class="btn-calculadora">+</button>
+          <button class="btn-calculadora">1</button>
+          <button class="btn-calculadora">2</button>
+          <button class="btn-calculadora">3</button>
+          <button class="btn-calculadora" id="igual">=</button>
+          <button class="btn-calculadora" id="cero">0</button>
+          <button class="btn-calculadora">.</button>
+        </div>
+      </section>
+      <section id="seccion 4">contacto</section>
+      <form action="anstevan3@gmail.com" method="POST">
+        <input type="text" nombre="name" placeholder="nombre aqui..." />
+        <input type="email" correo="email" placeholder="correo aqui.." />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <button
+        class="btn-contenedor hamburger hamburger--collapse"
+        type="button"
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div>derechos reserbados: Stevan ####</div>
+    </footer>
+    <script type="module" src="./0index.js"></script>
+  </body>
+</html>

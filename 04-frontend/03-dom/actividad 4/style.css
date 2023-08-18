@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background: linear-gradient(rgb(0, 0, 0), pink);
+}
+
+h1 {
+  color: #0066cc;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+#resultadoContainer {
+  margin-top: 20px;
+}
+
+#resultadoContainer p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
